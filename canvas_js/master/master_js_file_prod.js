@@ -5,19 +5,19 @@ var unixTimeStamp = (new Date()).getTime();
 // ***************************************************************
 // SALSA / Accordion
 // jquery-ui_accordion_only.min.js
-$.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/jquery-ui_accordion_only.min.js', function() {
+$.getScript('https://uat-pacs-bucket.outreach.ou.edu/canvas_js/jquery-ui_accordion_only.min.js', function() {
     //script is loaded and executed put your dependent JS here
     console.log('jquery-ui_accordion_only.min.js');
     
     // syllabus_accordion.js
-    $.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/syllabus_accordion.js', function() {
+    $.getScript('https://uat-pacs-bucket.outreach.ou.edu/canvas_js/syllabus_accordion.js', function() {
         //script is loaded and executed put your dependent JS here
         console.log('syllabus_accordion.js');
     });
 });
 
 // salsa_edit_button.js
-$.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/salsa_edit_button.js', function() {
+$.getScript('https://uat-pacs-bucket.outreach.ou.edu/canvas_js/salsa_edit_button.js', function() {
     //script is loaded and executed put your dependent JS here
     console.log('salsaEditButton.js');
 });
@@ -33,7 +33,7 @@ $.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/salsa_edit_button.js', f
 // NEW RCE
 // kennethware_2.js
 
-$.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/kennethware_2.js', function() {
+$.getScript('https://uat-pacs-bucket.outreach.ou.edu/canvas_js/kennethware_2.js', function() {
     //script is loaded and executed put your dependent JS here
     console.log('kennethware_2.js');
 });
@@ -52,7 +52,7 @@ $.getScript('https://www.googletagmanager.com/gtag/js?id=UA-118170707-1', functi
 });
 
 // google_analytics_new_dashboard.js
-$.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/google_analytics_new_dashboard.js', function() {
+$.getScript('https://uat-pacs-bucket.outreach.ou.edu/canvas_js/google_analytics_new_dashboard.js', function() {
     //script is loaded and executed put your dependent JS here
     console.log('Custom Google Analytics Loaded!');
 });
@@ -61,25 +61,25 @@ $.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/google_analytics_new_das
 
 
 // announcements.js
-$.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/announcements.js', function() {
+$.getScript('https://uat-pacs-bucket.outreach.ou.edu/canvas_js/announcements.js', function() {
     //script is loaded and executed put your dependent JS here
     console.log('announcements.js');
 });
 
 // browser_check.js
-$.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/browser_check.js', function() {
+$.getScript('https://uat-pacs-bucket.outreach.ou.edu/canvas_js/browser_check.js', function() {
     //script is loaded and executed put your dependent JS here
     console.log('browser_check.js');
 });
 
 // helpdesk_student.js
-$.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/helpdesk_student.js', function() {
+$.getScript('https://uat-pacs-bucket.outreach.ou.edu/canvas_js/helpdesk_student.js', function() {
     //script is loaded and executed put your dependent JS here
     console.log('helpdesk_student.js');
 });
 
 // remove_help_button.js
-$.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/remove_help_button.js', function() {
+$.getScript('https://uat-pacs-bucket.outreach.ou.edu/canvas_js/remove_help_button.js', function() {
     //script is loaded and executed put your dependent JS here
     console.log('remove_help_button.js');
 });
@@ -89,7 +89,7 @@ $.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/remove_help_button.js', 
 
 
 // module_completion.js
-$.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/module_completion.js', function() {
+$.getScript('https://uat-pacs-bucket.outreach.ou.edu/canvas_js/module_completion.js', function() {
     //script is loaded and executed put your dependent JS here
     console.log('module_completion.js');
 });
@@ -98,19 +98,19 @@ $.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/module_completion.js', f
 
 
 // calendar_view.js
-$.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/calendar_view.js', function() {
+$.getScript('https://uat-pacs-bucket.outreach.ou.edu/canvas_js/calendar_view.js', function() {
     //script is loaded and executed put your dependent JS here
     console.log('calendar_view.js');
 });
 
 // view_all_pages_link.js
-$.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/view_all_pages_link.js', function() {
+$.getScript('https://uat-pacs-bucket.outreach.ou.edu/canvas_js/view_all_pages_link.js', function() {
     //script is loaded and executed put your dependent JS here
     console.log('view_all_pages_link.js');
 });
 
 // remove_choose_home_page_button.js
-$.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/remove_choose_home_page_button.js', function() {
+$.getScript('https://uat-pacs-bucket.outreach.ou.edu/canvas_js/remove_choose_home_page_button.js', function() {
     //script is loaded and executed put your dependent JS here
     console.log('remove_choose_home_page_button.js');
 });
@@ -119,42 +119,42 @@ $.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/remove_choose_home_page_
 
 
 // banner_width_fix.js
-$.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/banner_width_fix.js', function() {
+$.getScript('https://uat-pacs-bucket.outreach.ou.edu/canvas_js/banner_width_fix.js', function() {
     //script is loaded and executed put your dependent JS here
     console.log('banner_width_fix.js');
 });
 
 // rubrics_importer.js
-$.getScript("https://uat-pacs-bucket.outreach.ou.edu/js/rubrics_importer.js", function(){
+$.getScript("https://uat-pacs-bucket.outreach.ou.edu/canvas_js/rubrics_importer.js", function(){
     //script is loaded and executed put your dependent JS here
     console.log('rubrics_importer.js');
 });
 
 // canvas_footer.js
-$.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/canvas_footer.js', function() {
+$.getScript('https://uat-pacs-bucket.outreach.ou.edu/canvas_js/canvas_footer.js', function() {
     //script is loaded and executed put your dependent JS here
     console.log('canvas_footer.js');
 });
 
 // copyright.js
-$.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/copyright.js', function() {
+$.getScript('https://uat-pacs-bucket.outreach.ou.edu/canvas_js/copyright.js', function() {
     //script is loaded and executed put your dependent JS here
     console.log('copyright.js');
 });
 
 // canvas_api.js
-$.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/canvas_api.js', function() {
+$.getScript('https://uat-pacs-bucket.outreach.ou.edu/canvas_js/canvas_api.js', function() {
 	console.log('canvas_api.js');
 	
 	// instructor_button.js
-	$.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/instructor_button.js', function() {
+	$.getScript('https://uat-pacs-bucket.outreach.ou.edu/canvas_js/instructor_button.js', function() {
 		//script is loaded and executed put your dependent JS here
 		console.log('instructor_button.js');
 	});
 });
 
 // library_button.js
-$.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/library_button.js', function() {
+$.getScript('https://uat-pacs-bucket.outreach.ou.edu/canvas_js/library_button.js', function() {
     //script is loaded and executed put your dependent JS here
     console.log('library_button.js');
 });
@@ -166,13 +166,13 @@ $.getScript('https://uat-pacs-bucket.outreach.ou.edu/js/library_button.js', func
 
 // ****************** Loaded in Production Only ****************** //
 // disable_course_renaming.js
-$.getScript("https://uat-pacs-bucket.outreach.ou.edu/js/disable_course_renaming.js", function(){
+$.getScript("https://uat-pacs-bucket.outreach.ou.edu/canvas_js/disable_course_renaming.js", function(){
     //script is loaded and executed put your dependent JS here
     console.log('disable_course_renaming.js');
 });
 
 // disable_grading_scheme_changing.js
-$.getScript("https://uat-pacs-bucket.outreach.ou.edu/js/disable_grading_scheme_changing.js", function(){
+$.getScript("https://uat-pacs-bucket.outreach.ou.edu/canvas_js/disable_grading_scheme_changing.js", function(){
     //script is loaded and executed put your dependent JS here
     console.log('disable_grading_scheme_changing.js');
 });
