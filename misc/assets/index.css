@@ -1,0 +1,54 @@
+.pure-button {
+	margin: 2px !important;
+  	transition: background-color 2s;
+}
+
+.pure-button:hover {
+	background-color: #229AF9;
+}
+
+.header {
+	animation-name: example;
+	animation-duration: 4s;
+	text-align:center;
+	font-family: Arial;
+	background-color: #0058A4;
+}
+
+.header2 { 
+	animation-name: example2;
+	animation-duration: 4s;
+	text-align:center;
+	font-family: Arial;
+	background-color: #003692;
+}
+
+.header3 {
+	animation-name: example3;
+	animation-duration: 4s;
+	text-align:center;
+	font-family: Arial;
+	background-color: #003692;
+}
+
+
+body {
+	background-color: black;
+	color:white;
+	/*)text-align:center;*/
+}
+
+@keyframes example {
+  from {background-color: black;}
+  to {background-color: #0058A4;}
+}
+
+@keyframes example2 {
+  from {background-color: black;}
+  to {background-color: #003692;}
+}
+
+@keyframes example3 {
+  from {background-color: black;}
+  to {background-color: #003692;}
+}
