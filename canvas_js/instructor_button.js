@@ -10,7 +10,9 @@ $(function(){
             atag.innerText = "Instructor";
             atag.setAttribute("class","instructor");
         
+
             $("#section-tabs li:first-child").after(instructor_link);
+
             console.log("Instructor button added!");
         } else {
             console.log("No instructor found so instructor button not added.");
