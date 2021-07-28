@@ -125,7 +125,7 @@ $.getScript(server + 'canvas_js/banner_width_fix.js', function() {
 });
 
 // rubrics_importer.js
-$.getScript(server + 'canvas_js/rubrics_importer.js", function(){
+$.getScript(server + 'canvas_js/rubrics_importer.js', function(){
     //script is loaded and executed put your dependent JS here
     console.log('rubrics_importer.js');
 });
@@ -166,13 +166,13 @@ $.getScript(server + 'canvas_js/library_button.js', function() {
 
 // ****************** Loaded in Production Only ****************** //
 // disable_course_renaming.js
-$.getScript(server + 'canvas_js/disable_course_renaming.js", function(){
+$.getScript(server + 'canvas_js/disable_course_renaming.js', function(){
     //script is loaded and executed put your dependent JS here
     console.log('disable_course_renaming.js');
 });
 
 // disable_grading_scheme_changing.js
-$.getScript(server + 'canvas_js/disable_grading_scheme_changing.js", function(){
+$.getScript(server + 'canvas_js/disable_grading_scheme_changing.js', function(){
     //script is loaded and executed put your dependent JS here
     console.log('disable_grading_scheme_changing.js');
 });
