@@ -114,7 +114,7 @@ $.getScript(server + 'canvas_js/remove_max_width.js', function() {
 
 
 // html_syntax_highlighter.js
-$.getScript("https://uat-pacs-bucket.outreach.ou.edu/canvas_js/html_syntax_highlighter.js", function(){
+$.getScript(server + 'canvas_js/html_syntax_highlighter.js", function(){
     //script is loaded and executed put your dependent JS here
     console.log('html_syntax_highlighter.js');
 });

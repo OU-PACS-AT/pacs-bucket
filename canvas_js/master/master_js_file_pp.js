@@ -88,7 +88,7 @@ $.getScript(server + 'canvas_js/banner_width_fix.js', function() {
 });
 
 // rubrics_importer.js
-$.getScript("https://uat-pacs-bucket.outreach.ou.edu/canvas_js/rubrics_importer.js", function(){
+$.getScript(server + 'canvas_js/rubrics_importer.js", function(){
     //script is loaded and executed put your dependent JS here
     console.log('rubrics_importer.js');
 });
@@ -100,7 +100,7 @@ $.getScript(server + 'canvas_js/canvas_footer.js', function() {
 });
 
 // html_syntax_highlighter.js
-$.getScript("https://uat-pacs-bucket.outreach.ou.edu/canvas_js/html_syntax_highlighter.js", function(){
+$.getScript(server + 'canvas_js/html_syntax_highlighter.js", function(){
     //script is loaded and executed put your dependent JS here
     console.log('html_syntax_highlighter.js');
 });
