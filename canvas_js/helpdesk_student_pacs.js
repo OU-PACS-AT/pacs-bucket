@@ -10,7 +10,7 @@ container =  '<div class="al-dropdown_container">';
 need_additional_help_dropdown = '<a class="al-trigger Button Button--block" role="button" href="#" style="background: #993333; color: #fff">Need additional Help <i class="icon-mini-arrow-down"></i></a><ul class="al-options" role="menu" tabindex="0" aria-hidden="true" aria-expanded="false">';
 student_walkthrough = '<li><a href="https://pacs.instructure.com/courses/6" target="_blank" tabindex="-1" role="menuitem">Student Walkthrough</a></li>';
 //support_desk_link = '<li><a href="#" target="_blank" role="menuitem" id="pacs_help_link">Support Desk</a></li>';
-support_desk_link = '<li><a href="https://pacs-bucket.outreach.ou.edu/issuecollector/" target="_blank" role="menuitem" id="temp_link">Support Desk</a></li>';
+support_desk_link = '<li><a href="https://pacs.instructure.com/courses/7471/pages/course-and-technical-assistance" target="_blank" role="menuitem" id="temp_link">Support Desk</a></li>';
 close_container = '</ul></div><br />';
 
 $('#right-side').prepend(container + need_additional_help_dropdown + student_walkthrough + support_desk_link + close_container);

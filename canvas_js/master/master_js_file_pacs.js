@@ -71,10 +71,10 @@ $.getScript(server + 'canvas_js/helpdesk_student_pacs.js', function() {
     //script is loaded and executed put your dependent JS here
     console.log('helpdesk_student_pacs.js');
     // issue_collector.js
-    $.getScript(server + 'canvas_js/issue_collector.js', function() {
+    //$.getScript(server + 'canvas_js/issue_collector.js', function() {
     //script is loaded and executed put your dependent JS here
-    console.log('issue_collector.js');
-    });
+    //console.log('issue_collector.js');
+    //});
 });
 
 
